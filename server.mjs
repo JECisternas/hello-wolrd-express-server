@@ -3,8 +3,8 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-    console.log('Response from Jaime Cisternas: ' + req.ip);
-    res.send('Response from Jaime Cisternas: ' + req.ip)
+    console.log('Response from Jaime Cisternas Riquelme: ' + req.ip);
+    res.send('Response from Jaime Cisternas Riquelme: ' + req.ip)
 })
 
 app.listen(port, () => {
